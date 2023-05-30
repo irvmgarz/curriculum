@@ -1,6 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@400;500&family=Source+Serif+Pro:wght@600;700&family=Varela&display=swap');
+/*Element selector*/
 h1 {
-color: red;
+color: #181818;
+/* font-family: Georgia, serif; */
+font-family: Source Serif Pro;
+background-color: #f6efef;
 }
+/*Universal selector*/
+/* {
+    font-family: Arial, sans-serif;
+     font-family: Cormorant; 
+    }
+    Class selector */
+    .subtitulo {
+        /* font-family: Times New Roman,serif; */
+        font-family: Cormorant;
+        color: #2e2e2e;
+        background-color: #f6efef;
+    }
+    p {
+        color: #2e2e2e;
+        font-family: Varela;
+    }
+    
+
 img {
     border: 1pt solid black;
     padding: 1.1rem;
@@ -8,7 +31,12 @@ img {
     margin-left: 25%;
     margin-right: 25%;
     margin-bottom: 2px;
+
+    color: #4fc4cf;
   }
+#myDiv {
+    background-color: #f6efef;
+}
 #mapas {
     text-align: center;
 }
